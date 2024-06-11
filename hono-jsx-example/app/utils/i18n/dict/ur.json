@@ -1,0 +1,60 @@
+{
+    "common": {
+        "cities": {
+            "Abha": "ابھا",
+            "Abu Dhabi": "ابوظبی",
+            "Ajman": "عجمان",
+            "Al Ain": "العین",
+            "Al Jubail": "الجبیل",
+            "Al Ula": "العلا",
+            "Bursa": "برسا",
+            "Cairo": "قاہرہ",
+            "Cappadocia": "کیپاڈوشیا",
+            "Dammam": "دمام",
+            "Doha": "دوحہ",
+            "Dubai": "دبئی",
+            "Fujairah": "فجیرہ",
+            "Hurghada": "ہوغرادہ",
+            "Jeddah": "جدہ",
+            "Kuşadası": "کوشاداسی",
+            "London": "لندن",
+            "Madina": "مدینہ",
+            "Pamukkale": "پاموککلے",
+            "RAK": "رأس الخیمہ",
+            "Riyadh": "الریاض",
+            "Sharjah": "شارجہ",
+            "Sharm El Sheikh": "شرم الشیخ",
+            "Trabzon": "ترابزون",
+            "UAQ": "ام القوین"
+        },
+        "countries": {
+            "Egypt": "مصر",
+            "Qatar": "قطر",
+            "Saudi Arabia": "سعودی عرب",
+            "Turkey": "ترکی",
+            "UAE": "متحدہ عرب امارات",
+            "UK": "یونائیٹڈ کنگڈم"
+        },
+        "months": {
+            "april": "اپریل",
+            "august": "اگست",
+            "december": "دسمبر",
+            "february": "فروری",
+            "january": "جنوری",
+            "july": "جولائی",
+            "june": "جون",
+            "march": "مارچ",
+            "may": "مئی",
+            "november": "نومبر",
+            "october": "اکتوبر",
+            "september": "ستمبر"
+        }
+    },
+    "errors": {
+        "back": "Discover پر واپس جائیں",
+        "frontError": "ہم چھوٹی چھٹی لینے پر ہیں!",
+        "notFound": "اوہ، ایسا کوئی صفحہ نہیں!",
+        "subtitle": "براہ کرم بعد میں دوبارہ کوشش کریں، ہم ابھی چیزیں منسلک کر رہے ہیں۔",
+        "tryAgain": "پھر کوشش کریں"
+    }
+}

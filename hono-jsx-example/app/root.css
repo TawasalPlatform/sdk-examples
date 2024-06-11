@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 240, 7%, 11%;
+        --foreground: 0 0% 100%;
+        --card: 0 0% 100%;
+        --card-foreground: 20 14.3% 4.1%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 20 14.3% 4.1%;
+        --primary: 274, 65%, 57%;
+        --primary-foreground: 26 83.3% 14.1%;
+        --secondary: 60 4.8% 95.9%;
+        --secondary-foreground: 24 9.8% 10%;
+        --muted: 0, 2%, 70%;
+        --muted-foreground: 25 5.3% 44.7%;
+        --accent: 274, 65%, 57%;
+        --accent-foreground: 24 9.8% 10%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 60 9.1% 97.8%;
+        --border: 20 5.9% 90%;
+        --input: 20 5.9% 90%;
+        --ring: 24.6 95% 53.1%;
+        --radius: 0.5rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        max-height: 100vh;
+        @apply bg-background text-foreground;
+    }
+}
+
+@layer utilities {
+    /* For Webkit-based browsers (Chrome, Safari and Opera) */
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* For IE, Edge and Firefox */
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .dev > * {
+        border: 2px solid rgba(255, 0, 0, 0.13);
+    }
+}
+
+a,
+button,
+input {
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.rtl .aligned-start {
+    text-align: right;
+}
+.rtl .aligned-end {
+    text-align: left;
+}
+.rtl .sensetive-icon {
+    transform: scaleX(-1);
+}
+
+
+.ltr .aligned-start {
+    text-align: left;
+}
+
+.ltr .aligned-end {
+    text-align: right;
+}

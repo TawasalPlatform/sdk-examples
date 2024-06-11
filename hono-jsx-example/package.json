@@ -1,0 +1,56 @@
+{
+  "type": "module",
+  "name": "hono-jsx-tawasal-example",
+  "author": "dygy",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"tailwindcss -i ./app/root.css -o ./public/static/style.css --minify --watch\"",
+    "build": "tailwindcss -i ./app/root.css -o ./public/static/style.css --minify && npm run typescript && vite build --mode production",
+    "typescript": "./node_modules/.bin/tsc --noEmit --strict --skipLibCheck --incremental --tsBuildInfoFile \"./.tsbuildcache\"",
+    "start": "npm run db:deploy && vite --mode production --force --strictPort",
+    "find-ip": "docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' hono-jsx-sample-app-1",
+    "binome": "npx @biomejs/biome format --write ./",
+    "db:deploy": "npx prisma generate && npx prisma migrate deploy",
+    "db:init": "prisma generate && prisma migrate",
+    "db:migrate": "npx prisma migrate dev",
+    "fix-locales": "node app/utils/i18n/fix-locale.mjs",
+    "k6": "k6 run --out json=./k6/test.json k6/city.mjs"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.1",
+    "@mdx-js/rollup": "^3.0.1",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "@tailwindcss/typography": "^0.5.13",
+    "@tawasal/web": "0.0.2",
+    "@tawasal/node": "0.0.3",
+    "class-variance-authority": "^0.7.0",
+    "dotenv": "^16.4.5",
+    "hono": "4.3.9",
+    "honox": "0.1.17",
+    "prisma": "^5.13.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vite-plugin-commonjs": "^0.10.1",
+    "vite-plugin-minify": "^1.5.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.2",
+    "@cloudflare/workers-types": "4.20240423.0",
+    "@hono/vite-cloudflare-pages": "0.2.5",
+    "@hono/vite-dev-server": "0.3.5",
+    "@hono/vite-ssg": "^0.1.0",
+    "@prisma/client": "^5.13.0",
+    "@types/bun": "latest",
+    "autoprefixer": "10.4.19",
+    "concurrently": "8.2.2",
+    "cssnano": "6.1.2",
+    "postcss": "8.4.38",
+    "prettier-plugin-tailwindcss": "0.5.14",
+    "tailwindcss": "3.4.3",
+    "vite": "^5.2.10",
+    "vite-tsconfig-paths": "4.3.2",
+    "wrangler": "3.52.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+    "common": {
+        "cities": {
+            "Abha": "أبها",
+            "Abu Dhabi": "أبو ظبي",
+            "Ajman": "عجمان",
+            "Al Ain": "العين",
+            "Al Jubail": "الجبيل",
+            "Al Ula": "العلا",
+            "Bursa": "بورصة",
+            "Cairo": "القاهرة",
+            "Cappadocia": "كابادوكيا",
+            "Dammam": "الدمام",
+            "Doha": "الدوحة",
+            "Dubai": "دبي",
+            "Fujairah": "الفجيرة",
+            "Hurghada": "الغردقة",
+            "Jeddah": "جدة",
+            "Kuşadası": "كوشاداسي",
+            "London": "لندن",
+            "Madina": "المدينة",
+            "Pamukkale": "باموكالي",
+            "RAK": "رأس الخيمة",
+            "Riyadh": "الرياض",
+            "Sharjah": "الشارقة",
+            "Sharm El Sheikh": "شرم الشيخ",
+            "Trabzon": "طرابزون",
+            "UAQ": "أم القيوين"
+        },
+        "countries": {
+            "Egypt": "مصر",
+            "Qatar": "قطر",
+            "Saudi Arabia": "السعودية",
+            "Turkey": "تركيا",
+            "UAE": "الإمارات العربية المتحدة",
+            "UK": "المملكة المتحدة"
+        },
+        "months": {
+            "april": "أبريل",
+            "august": "أغسطس",
+            "december": "ديسمبر",
+            "february": "فبراير",
+            "january": "يناير",
+            "july": "يوليو",
+            "june": "يونيو",
+            "march": "مارس",
+            "may": "مايو",
+            "november": "نوفمبر",
+            "october": "أكتوبر",
+            "september": "سبتمبر"
+        }
+    },
+    "errors": {
+        "back": "العودة إلى الاكتشاف",
+        "frontError": "نحن في استراحة بسيطة!",
+        "notFound": "عفوًا، لا توجد صفحة كهذه!",
+        "subtitle": "يرجى المحاولة مرة أخرى لاحقًا، نحن نرتب الأمور الآن.",
+        "tryAgain": "حاول مرة أخرى"
+    }
+}

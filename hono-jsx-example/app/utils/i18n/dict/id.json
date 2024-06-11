@@ -1,0 +1,60 @@
+{
+    "common": {
+        "cities": {
+            "Abha": "Abha",
+            "Abu Dhabi": "Abu Dhabi",
+            "Ajman": "Ajman",
+            "Al Ain": "Al Ain",
+            "Al Jubail": "Al Jubail",
+            "Al Ula": "Al Ula",
+            "Bursa": "Bursa",
+            "Cairo": "Kairo",
+            "Cappadocia": "Cappadocia",
+            "Dammam": "Dammam",
+            "Doha": "Doha",
+            "Dubai": "Dubai",
+            "Fujairah": "Fujairah",
+            "Hurghada": "Hurghada",
+            "Jeddah": "Jeddah",
+            "Kuşadası": "Kuşadası",
+            "London": "London",
+            "Madina": "Madina",
+            "Pamukkale": "Pamukkale",
+            "RAK": "Ras al-Khaimah",
+            "Riyadh": "Riyadh",
+            "Sharjah": "Sharjah",
+            "Sharm El Sheikh": "Sharm El Sheikh",
+            "Trabzon": "Trabzon",
+            "UAQ": "Umm al-Quwain"
+        },
+        "countries": {
+            "Egypt": "Mesir",
+            "Qatar": "Qatar",
+            "Saudi Arabia": "Arab Saudi",
+            "Turkey": "Turki",
+            "UAE": "Uni Emirat Arab",
+            "UK": "Inggris"
+        },
+        "months": {
+            "april": "April",
+            "august": "Agustus",
+            "december": "Desember",
+            "february": "Februari",
+            "january": "Januari",
+            "july": "Juli",
+            "june": "Juni",
+            "march": "Maret",
+            "may": "Mei",
+            "november": "November",
+            "october": "Oktober",
+            "september": "September"
+        }
+    },
+    "errors": {
+        "back": "Kembali ke Temukan",
+        "frontError": "Kami sedang istirahat sebentar!",
+        "notFound": "Ups, tidak ada halaman seperti itu!",
+        "subtitle": "Silakan coba lagi nanti, kami sedang menyortir hal-hal sekarang.",
+        "tryAgain": "Coba lagi"
+    }
+}

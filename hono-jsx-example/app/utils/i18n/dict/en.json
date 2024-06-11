@@ -1,0 +1,60 @@
+{
+    "common": {
+        "cities": {
+            "Abha": "Abha",
+            "Abu Dhabi": "Abu Dhabi",
+            "Ajman": "Ajman",
+            "Al Ain": "Al Ain",
+            "Al Jubail": "Al Jubail",
+            "Al Ula": "Al Ula",
+            "Bursa": "Bursa",
+            "Cairo": "Cairo",
+            "Cappadocia": "Cappadocia",
+            "Dammam": "Dammam",
+            "Doha": "Doha",
+            "Dubai": "Dubai",
+            "Fujairah": "Fujairah",
+            "Hurghada": "Hurghada",
+            "Jeddah": "Jeddah",
+            "Kuşadası": "Kuşadası",
+            "London": "London",
+            "Madina": "Madina",
+            "Pamukkale": "Pamukkale",
+            "RAK": "Ras al-Khaimah",
+            "Riyadh": "Al Riyadh",
+            "Sharjah": "Sharjah",
+            "Sharm El Sheikh": "Sharm El Sheikh",
+            "Trabzon": "Trabzon",
+            "UAQ": "Umm al-Quwain"
+        },
+        "countries": {
+            "Egypt": "Egypt",
+            "Qatar": "Qatar",
+            "Saudi Arabia": "Saudi Arabia",
+            "Turkey": "Turkey",
+            "UAE": "United Arab Emirates",
+            "UK": "United Kingdom"
+        },
+        "months": {
+            "april": "april",
+            "august": "august",
+            "december": "december",
+            "february": "february",
+            "january": "january",
+            "july": "july",
+            "june": "june",
+            "march": "march",
+            "may": "may",
+            "november": "november",
+            "october": "october",
+            "september": "september"
+        }
+    },
+    "errors": {
+        "back": "Back to Discover",
+        "frontError": "We are on a tiny break!",
+        "notFound": "Ooups, no such page!",
+        "subtitle": "Please try again later, we are sorting things out right now.",
+        "tryAgain": "Try again"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "common": {
+        "cities": {
+            "Abha": "Abha",
+            "Abu Dhabi": "Abu Dabi",
+            "Ajman": "Acman",
+            "Al Ain": "El Ayn",
+            "Al Jubail": "El-Cubeyl",
+            "Al Ula": "El-Ula",
+            "Bursa": "Bursa",
+            "Cairo": "Kahire",
+            "Cappadocia": "Kapadokya",
+            "Dammam": "Dammam",
+            "Doha": "Doha",
+            "Dubai": "Dubai",
+            "Fujairah": "Füceyra",
+            "Hurghada": "Hurgada",
+            "Jeddah": "Cidde",
+            "Kuşadası": "Kuşadası",
+            "London": "Londra",
+            "Madina": "Medine",
+            "Pamukkale": "Pamukkale",
+            "RAK": "Ras el-Hayme",
+            "Riyadh": "Riyad",
+            "Sharjah": "Şarca",
+            "Sharm El Sheikh": "Şarm El-Şeyh",
+            "Trabzon": "Trabzon",
+            "UAQ": "Umm el-Kuveyn"
+        },
+        "countries": {
+            "Egypt": "Mısır",
+            "Qatar": "Katar",
+            "Saudi Arabia": "Suudi Arabistan",
+            "Turkey": "Türkiye",
+            "UAE": "Birleşik Arap Emirlikleri",
+            "UK": "Birleşik Krallık"
+        },
+        "months": {
+            "april": "Nisan",
+            "august": "Ağustos",
+            "december": "Aralık",
+            "february": "Şubat",
+            "january": "Ocak",
+            "july": "Temmuz",
+            "june": "Haziran",
+            "march": "Mart",
+            "may": "Mayıs",
+            "november": "Kasım",
+            "october": "Ekim",
+            "september": "Eylül"
+        }
+    },
+    "errors": {
+        "back": "Keşfe Geri Dön",
+        "frontError": "Küçük bir mola veriyoruz!",
+        "notFound": "Hay aksi, böyle bir sayfa yok!",
+        "subtitle": "Lütfen daha sonra tekrar deneyin, şu anda işleri düzenliyoruz.",
+        "tryAgain": "Yeniden dene"
+    }
+}
