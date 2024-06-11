@@ -1,0 +1,9 @@
+{
+    "errors": {
+        "back": "Retour à Découvrir",
+        "frontError": "Nous sommes en petite pause !",
+        "notFound": "Oups, aucune page de ce type !",
+        "subtitle": "Veuillez réessayer plus tard, nous organisons les choses en ce moment.",
+        "tryAgain": "Réessayer"
+    }
+}

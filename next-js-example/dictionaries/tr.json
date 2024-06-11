@@ -1,0 +1,9 @@
+{
+    "errors": {
+        "back": "Keşfe Geri Dön",
+        "frontError": "Küçük bir aradayız!",
+        "notFound": "Hoop, böyle bir sayfa yok!",
+        "subtitle": "Lütfen daha sonra tekrar deneyin, şu anda işleri düzenliyoruz.",
+        "tryAgain": "Tekrar dene"
+    }
+}

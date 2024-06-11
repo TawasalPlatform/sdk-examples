@@ -1,0 +1,9 @@
+{
+    "errors": {
+        "back": "Kembali ke Temukan",
+        "frontError": "Kami sedang beristirahat sejenak!",
+        "notFound": "Ups, tidak ada halaman seperti itu!",
+        "subtitle": "Silakan coba lagi nanti, kami sedang menyortir hal-hal saat ini.",
+        "tryAgain": "Coba lagi"
+    }
+}
