@@ -36,7 +36,6 @@ const baseConfig = (env: ConfigEnv["mode"]) => ({
       env === "development"
         ? true
         : {
-            host: "discover-city.tawasal.ae",
             port: 3001,
             protocol: "wss",
           },
